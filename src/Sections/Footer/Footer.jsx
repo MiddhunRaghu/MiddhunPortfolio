@@ -3,7 +3,7 @@ import styles from './FooterStyles.module.css';
 function Footer() {
   return (
     <section id='footer' className= {styles.container}>
-        <p>&copy; 2024 Middhun Raghunathan. <br />
+        <p>&copy; {new Date().getFullYear()} Middhun Raghunathan. <br />
         All rights reserved.
         </p>
     </section>
