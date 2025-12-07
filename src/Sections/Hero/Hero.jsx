@@ -8,7 +8,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/Middhun Resume - React Projects.pdf';
+import CV from '../../assets/Middhun_Raghunathan_Devops_Engineer___Resume.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 
@@ -37,7 +37,7 @@ function Hero() {
                 <br />
                 Raghunathan
                 </h1>
-                <h2>Frontend Developer</h2>
+                <h2>Azure Devops Engineer</h2>
                 <span>
                     <a href="https://twitter.com/" target="_blank">
                     <img src={twitterIcon} alt="Twitter icon" /></a>
@@ -47,8 +47,7 @@ function Hero() {
                     <img src={linkedinIcon} alt="LinkedIn icon" /></a>
                 </span>
                 <p className= {styles.description}>
-                System Engineer at TCS with strong problem-solving skills and a quick learning ability. Passionate about cloud platforms and web application development, currently focused on mastering JavaScript and React to advance in my career.
-                </p>
+                        System Engineer (TCS) with 3.5+ years of experience in Azure, AVD, and DevOps. Strong problem-solving skills and a fast learning mindset, with hands-on expertise in cloud infrastructure, automation, and CI/CD. Passionate about building scalable cloud solutions and continuously improving my skills in DevOps, scripting, and modern web technologies.                </p>
                 <a href={CV} download>
                     <button className="hover" >
                         Resume

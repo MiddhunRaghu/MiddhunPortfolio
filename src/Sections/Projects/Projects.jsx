@@ -13,7 +13,6 @@ function Projects() {
             <ProjectCard src={SpotifyIcon} link="https://middhunraghu.github.io/Spotify-Clone/" h3="Spotify" p="Audio Streaming WebApp"/>
             <ProjectCard src={ThirstyLion} link="https://MiddhunRaghu.github.io/Thirsty-Lion-Coffee-Shop/" h3="Thirsty Lion" p="Thirsty Lion - Coffee Shop"/>
             <ProjectCard src={WeatherIcon} link="https://middhunraghu.github.io/Weather-Finder/" h3="Weather Finder" p="Weather Finder Application"/>
-            <ProjectCard src={fitlift} link="" h3="FitLift" p="Fitness App"/>
         </div>
     </section>
   );
